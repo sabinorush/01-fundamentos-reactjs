@@ -3,7 +3,7 @@ import styles from './Comment.module.css';
 
 export function Comment() {
   return( 
-    <div className={styles.Comment}>
+    <div className={styles.comment}>
       <img
        src="https://pbs.twimg.com/profile_images/1817738431595696128/OOS20G8L_400x400.jpg"
       />
@@ -17,7 +17,7 @@ export function Comment() {
             </div>
 
             <button title='Delete comment'>
-              <Trash size={20}/>
+              <Trash size={24}/>
             </button>
           </header>
 
